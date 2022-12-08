@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin:5px 8px;
+}
+
+body{
+    margin:0;
+}
+
+h1{
+    background-color: #031533;
+    color: #c8cacc;
+    padding: 10px;
+    border: 4px solid black;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Cambria;
+}
+
+#mail{
+    color: #c4ba08;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+#retea{
+    background-color: #cfdefa;
+    border: 3px solid #8907f5;
+}
+
+#retea p{
+    font-size: 2rem;
+    text-decoration: underline;
+    color:#8907f5;
+    font-family: Arial;
+}
+
+#retea img{
+    display: block;
+    margin: 30px auto;
+}
+
+ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Cascadia Mono";
+    font-size: 1.2rem;
+}
+
+#all{
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin:130px 50px 0 50px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.imgSlide {
+    vertical-align: middle;
+    width:100%;
+    height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+#tabel{
+    margin:50px 50px 0 50px;
+}
+
+#tabel p{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #8907f5;
+    font-family: Cambria;
+}
+
+#tabel table{
+    margin-top: 50px;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 1.2rem;
+}
+
+#tabel tr, th, td{
+    border: 4px solid orange;
+    padding: 10px;
+    background-color: gray;
+}
+
+#table tr,th{
+    color: #c4ba08;
+    text-decoration: underline;
+    font-style: italic;
+}
